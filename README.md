@@ -6,4 +6,8 @@
 [monolog4](http://wiki.jikexueyuan.com/project/symfony-cookbook/monolog.html)
 [monolog5](https://laravel-china.org/topics/363)
 
-### 其他
+### composer
+[composer资源包](https://packagist.org/)
+
+### use与require/autoload详解
+[命名空间](http://www.oschina.net/question/147332_138188)
