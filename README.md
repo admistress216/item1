@@ -11,3 +11,5 @@
 
 ### use与require/autoload详解
 [命名空间](http://www.oschina.net/question/147332_138188)
+
+[binlog日志](http://www.cnblogs.com/martinzhang/p/3454358.html)
