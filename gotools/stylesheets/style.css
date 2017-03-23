@@ -1,0 +1,18 @@
+*{margin:0px;padding:0px;}
+ul.select_01{
+	float:left;
+	clear:both;
+}
+ul.select_01 li.row{
+	float:left;
+	clear:both;
+	width:470px;
+	list-style-type:none;
+	font-size:12px;
+	line-height:20px;
+	color:#807D76;
+	border-bottom:1px dotted;
+}
+ul.select_01 li.row a{color:#807D76;}
+ul.select_01 li.row .article_title{background-image:url(../images/x_icon.jpg);background-repeat:no-repeat;background-position:3px 8px;float:left;width:400;padding-left:10px;}
+ul.select_01 li.row .article_date{float:right;width:60px;}
