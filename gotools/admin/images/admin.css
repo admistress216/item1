@@ -1,0 +1,79 @@
+/**********整体页面样式**********/
+*{margin:0px;padding:0px;}
+body{font-family:"宋体";}
+.all {height: 700px;width: 800px;margin:15px auto;font-size:12px;color:#4F6B72;font-family:"宋体";}
+a {color:#4F6B72; text-decoration:none;font-family:"宋体";}
+.all_top{float:left;clear:both;background-image: url(../images/top.jpg);background-repeat: no-repeat;height: 15px;width: 800px;}
+.main{float:left;clear:both;width: 800px;background-image: url(../images/main.jpg);background-repeat: repeat-y;line-height:20px;}
+.main_top {clear: both;float: left;height: 80px;width: 800px;background-image: url(../images/logo.jpg);background-repeat: no-repeat;background-position: 15px 15px;}
+.main_txt {clear: both;float: left;height: 600px;width: 780px;padding: 10px;}
+.left {float: left;width: 104px;}
+.left a{float:left;width:102px;height:20px;text-align:center;background-image: url(../images/icon.gif);background-repeat: no-repeat;background-position: 18px 6px;}
+.left a:hover{background-color: #E6EDF7;}
+.la {float: left;width: 102px;border: 1px solid #E9E9E9;background-color: #FFFFFF;padding:10px 0px;}
+.lb {float: left;width: 102px;border: 1px solid #E9E9E9;background-color: #FFFFFF;margin-top:5px;padding:10px 0px;height:512px;}
+.right {float: right;width: 650px;border: 1px solid #E9E9E9;background-color: #FFFFFF;height:580px;padding: 10px;color:#4F6B72;}
+.ra_add {float:left;clear:both;background-image: url(../images/title_add.jpg);background-repeat: no-repeat;clear: both;float: left;height: 28px;width: 650px;}
+.ra_system {float:left;clear:both;background-image: url(../images/title_system.jpg);background-repeat: no-repeat;clear: both;float: left;height: 28px;width: 650px;}
+.ra_user {float:left;clear:both;background-image: url(../images/title_user.jpg);background-repeat: no-repeat;clear: both;float: left;height: 28px;width: 650px;}
+.ra_channel {float:left;clear:both;background-image: url(../images/title_channel.jpg);background-repeat: no-repeat;clear: both;float: left;height: 28px;width: 650px;}
+.ra_xml {float:left;clear:both;background-image: url(../images/xml_create.jpg);background-repeat: no-repeat;clear: both;float: left;height: 28px;width: 650px;}
+.ra_edit {float:left;clear:both;background-image: url(../images/title_edit.jpg);background-repeat: no-repeat;clear: both;float: left;height: 28px;width: 650px;}
+.ra_article {float:left;clear:both;background-image: url(../images/title_article.jpg);background-repeat: no-repeat;clear: both;float: left;height: 28px;width: 650px;}
+.ra_comment {float:left;clear:both;background-image: url(../images/title_comment.jpg);background-repeat: no-repeat;clear: both;float: left;height: 28px;width: 650px;}
+.ra_index {float:left;clear:both;background-image: url(../images/title_index.jpg);background-repeat: no-repeat;clear: both;float: left;height: 28px;width: 650px;}
+.rb {float:left;clear:both;clear: both;float: left;width: 650px;}
+.add_from {float:left;clear:both;clear: both;float: left;width: 650px;}
+.all_foot{float:left;clear:both;background-image: url(../images/foot.jpg);background-repeat: no-repeat;height: 15px;width: 800px;}
+.all_foot2{float:left;clear:both;height: 15px;width: 800px;line-height:22px;text-align:center;padding:10px 0px;}
+.page {float:left;clear:both;text-align:right;line-height:25px;width:650px; height:25px;}
+.serach select {float:left;border:1px solid #DAE1E7;height:22px; width:80px; color:#4F6B72;}
+.serach input {float:left;border:1px solid #DAE1E7;height:18px; width:472px;margin:0px 2px;padding:2px 4px 0px 4px;color:#4F6B72;}
+.serach input.button {float:left;border:1px solid #DAE1E7;height:22px; width:80px; background-color:#FFFFFF;padding:0px;*padding:2px 0px 0px 0px;#4F6B72;}
+/**********表格全局样式**********/
+.list_table {width:650px;float:left;clear:both;padding:5px 0px;}
+.list_table #mytable {width:650px;text-align:center;}
+.list_table tr {border: 1px solid #DAE1E7;}
+.list_table th {color: #ffffff;font-weight:normal;letter-spacing: 2px;text-transform: uppercase;height:22px;background: #7A95AB  no-repeat;padding-right: 0px;padding-bottom: 0px;}
+.list_table td {vertical-align:middle;background: #fff;font-size:12px;height:22px;color: #4F6B72;border-right:1px solid #DAE1E7;border-bottom: 1px solid #DAE1E7;word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.list_table .td_one {border-left:1px solid #DAE1E7;}
+
+/**********内容管理样式class**********/
+.add_ID {width:30px;}
+.add_channel{width:64px;}
+.add_title{text-align:left;padding-left:4px;}
+.add_datetime{width:70px;}
+.add_click{width:38px;}
+.add_action{width:70px;}
+.add_action a{text-decoration:underline;}
+/**********评论管理样式class**********/
+.comment_ID {width:30px;}
+.comment_articleid {width:64px;}
+.comment_authors {width:80px;padding-left:4px;text-align:left;}
+.comment_content{text-align:left;padding-left:4px;}
+.comment_time{width:70px;}
+.comment_action{width:70px;}
+.comment_action a{text-decoration:underline;}
+.comment_edit_content {width: 600px;height:120px;}
+
+/**添加内容页面样式**/
+.add_from {text-align:left;}
+.add_from input{border: 1px solid #97AAB9;height:20px;line-height:20px;color:#4F6B72;}
+.add_from textarea{border: 1px solid #97AAB9;overflow-y:hidden;color:#4F6B72;}
+.add_from .article_title{width: 600px;}
+.add_from .article_authors{width: 238px;}
+.add_from .article_channel{width: 80px;color:#4F6B72;}
+.add_from .article_date{width: 196px;}
+.add_from .article_intro{width: 596px;height:80px;padding:2px;}
+.add_from .article_url{width: 600px;}
+.add_from .article_click{width: 100px;}
+.add_from .article_keyword{width: 350px; }
+.add_from .article_imgurl{width: 552px;float:left;}
+.add_from .upfile{border: 1px solid #97AAB9;padding:0px 10px;margin:0px 2px;float:left;}
+.add_from .article_top{float:left;margin:2px 5px 0px 0px;border:0px;}
+.add_from .article_content{width: 600px;height:280px;}
+.add_from .button{border: 1px solid #97AAB9;padding:2px 10px;background-color:#FFFFFF;float:right;height:24px;margin-right:9px;}
+.add_from .button2{border: 1px solid #97AAB9;padding:1px 6px;background-color:#FFFFFF;height:22px;margin-right:9px;}
+.system_input{width: 571px;padding:0px 5px}
+.system_user{width: 583px;padding:0px 5px}
+.system_channel{width: 100px;padding:0px 5px}
